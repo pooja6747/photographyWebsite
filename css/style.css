@@ -1,0 +1,345 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#home {
+    background-image: url('https://themewagon.github.io/halen/img/banner/banner1.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h3 {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 300;
+    line-height: 82px;
+    margin-bottom: 20px;
+}
+
+.section_title h3 {
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 300;
+    color: #2C2C2C;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 0;
+    margin-bottom: 21px;
+}
+
+.photography_skill_area .section_title p {
+    font-size: 20px;
+    color: #707070;
+    line-height: 32px;
+    margin-bottom: 0;
+    font-weight: 400;
+    margin-bottom: 23px;
+    padding: 0 23px;
+}
+
+.wild_photography .wildlife_photo img {
+    width: 100%;
+}
+
+.wild_photography {
+    background: #F5FBFF;
+
+}
+
+.wild_photography .section_title {
+    padding-left: 113px;
+}
+
+.wild_photography .section_title p {
+    font-size: 20px !important;
+    line-height: 28px;
+    margin-top: 21px;
+    margin-bottom: 37px;
+    font-weight: 400;
+    color: #707070;
+    font-family: "Poppins", sans-serif;
+}
+
+.black_btn {
+    background: #000000;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 28px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.gallery_area {
+    padding-top: 100px;
+}
+
+.gallery_area .single_photography .thumb img {
+    width: 101%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.gallery {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    --bs-gutter-x: 0 !important
+}
+
+.gallery_area .section_title p {
+    padding: 0 10px;
+}
+
+.section_title p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    line-height: 28px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+/* .owl-stage{
+    width: 1640px;
+}
+
+.owl-item{
+    width: 920px
+} */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+.testimonial_area {
+    padding: 20px 0;
+    background: #F5FBFF;
+}
+
+.title-car {
+    font-size: 42px;
+    font-weight: 300;
+    color: #2C2C2C;
+}
+
+.testimonial_area {
+    font-size: 24px;
+    font-weight: 400;
+    color: #2C2C2C;
+    line-height: 36px;
+    text-decoration: underline;
+    margin-top: 53px;
+    margin-bottom: 21px;
+}
+
+.author_name span {
+    font-size: 16px;
+    color: #727272;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.team_area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 300;
+    color: #2C2C2C;
+    margin-bottom: 0;
+}
+
+.Photographer {
+    font-size: 13px;
+    font-weight: 300;
+    color: #2C2C2C;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.team_area .border_bottom {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.team_area .border_bottom .single_team .team_info .social_link li {
+    display: inline-block;
+
+}
+
+.social_link li {
+    display: inline-block !important;
+}
+
+.icon {
+    color: #727272 !important;
+}
+
+li {
+    list-style: none;
+    color: #727272 !important;
+}
+
+
+
+.contact_info_area .cotact_info .address_info h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact_info_area .cotact_info .address_info .Address li a {
+    color: #727272;
+}
+
+.contact_info_area .cotact_info .address_info .Address li {
+    font-size: 18px !important;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 10px;
+}
+
+.contact_info_area .cotact_info .address_info {
+    margin-top: 25px;
+}
+
+ul {
+    padding-left: 0rem !important;
+}
+
+.instragram_area {
+    display: block;
+    overflow: hidden;
+}
+
+.footer {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.footer .copy-right_text .copy_right {
+    font-size: 16px;
+    color: #C7C7C7;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.footer .copy-right_text .copy_right a {
+    color: #5DB2FF;
+}
+
+.footer .socail_links {
+    text-align: right;
+}
+
+.footer .socail_links ul li {
+    display: inline-block;
+}
+
+.bg-b {
+    background-color: black !important;
+    color: #fff !important;
+    transition: 2s;
+}
+
+.bg-t {
+    background-color: transparent !important;
+    color: black !important;
+    transition: 2s;
+}
+
+#about-home {
+
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('https://themewagon.github.io/halen/img/banner/bradcam_bg_1.png');
+    background-color: #000000 !important;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+#contact-home {
+    background-image: url('https://themewagon.github.io/halen/img/banner/bradcam_bg_3.png');
+    background-size: cover;
+    background-position: bottom;
+    padding: 220px 0;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+
+.contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+
+.contact-info {
+    margin-bottom: 25px;
+}
+
+.boxed-btn {
+    background: #fff;
+    color: #131313;
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #48B6FB;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #48B6FB !important;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.logo {
+    width: 5rem;
+    height: 2rem;
+}
+
+.navbar-flex{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+}
